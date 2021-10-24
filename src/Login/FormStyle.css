@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+
+.login-container{
+    /* width: 57vh;
+    height: 60vh; */
+    width: 425px;
+    height: 450px;
+    margin: 0 auto;
+    padding: 4vh;
+    margin-top: 15vh;
+    background-color: white;
+}
+
+.form-control:focus{
+    border: none;
+    box-shadow: 0 0 3px green !important;
+}
+
+/* .inputCheckbox{
+    margin-left: 1vh;
+    opacity: 70%;
+} */
+
+.inputForgetPwd{
+    margin-left: 42px;
+    font-size: 15px;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+i {
+    position: relative;
+    left: 95%;
+  }
+
+i:hover {
+    color: #00fcb6;
+    cursor: pointer;
+  }
+
+  .nameError{
+      color: red;
+  }
+
+  .passError{
+      color: red;
+      margin-left: -18px;
+  }

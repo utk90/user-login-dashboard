@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="15" failures="0" errors="0" time="6.509">
+  <testsuite name="Input component" errors="0" failures="0" skipped="0" timestamp="2021-05-11T09:26:01" time="1.952" tests="5">
+    <testcase classname="Input component renders without crashing" name="Input component renders without crashing" time="0.031">
+    </testcase>
+    <testcase classname="Input component name field label render correctly" name="Input component name field label render correctly" time="0.013">
+    </testcase>
+    <testcase classname="Input component password field label render correctly" name="Input component password field label render correctly" time="0.005">
+    </testcase>
+    <testcase classname="Input component change of name field value works correctly" name="Input component change of name field value works correctly" time="0.007">
+    </testcase>
+    <testcase classname="Input component change of password field value works correctly" name="Input component change of password field value works correctly" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="Checkbox component" errors="0" failures="0" skipped="0" timestamp="2021-05-11T09:26:01" time="1.934" tests="3">
+    <testcase classname="Checkbox component renders without crashing" name="Checkbox component renders without crashing" time="0.029">
+    </testcase>
+    <testcase classname="Checkbox component checkbox field label render correctly" name="Checkbox component checkbox field label render correctly" time="0.02">
+    </testcase>
+    <testcase classname="Checkbox component change of checkbox field value works correctly" name="Checkbox component change of checkbox field value works correctly" time="0.014">
+    </testcase>
+  </testsuite>
+  <testsuite name="Button component" errors="0" failures="0" skipped="0" timestamp="2021-05-11T09:26:01" time="1.971" tests="4">
+    <testcase classname="Button component renders without crashing" name="Button component renders without crashing" time="0.019">
+    </testcase>
+    <testcase classname="Button component button text render correctly" name="Button component button text render correctly" time="0.011">
+    </testcase>
+    <testcase classname="Button component button click event works correctly" name="Button component button click event works correctly" time="0.008">
+    </testcase>
+    <testcase classname="Button component button disabled works correctly" name="Button component button disabled works correctly" time="0.006">
+    </testcase>
+  </testsuite>
+  <testsuite name="Button component" errors="0" failures="0" skipped="0" timestamp="2021-05-11T09:26:01" time="1.999" tests="3">
+    <testcase classname="Button component renders without crashing" name="Button component renders without crashing" time="0.016">
+    </testcase>
+    <testcase classname="Button component card text render correctly" name="Button component card text render correctly" time="0.011">
+    </testcase>
+    <testcase classname="Button component card size, bg-color, text-color render correctly" name="Button component card size, bg-color, text-color render correctly" time="0.005">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,9 @@
+.all-motivation{
+    background-color: rgb(26, 65, 109);
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,88 @@
+{
+  "name": "userlogin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@storybook/addon-a11y": "^6.2.9",
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "axios": "^0.21.1",
+    "bootstrap": "^4.6.0",
+    "contentful": "^8.3.5",
+    "enzyme": "^3.11.0",
+    "formik": "^2.2.6",
+    "jest-junit": "^12.0.0",
+    "react": "^17.0.2",
+    "react-app-rewired": "^2.1.8",
+    "react-avatar": "^3.10.0",
+    "react-bootstrap-validation": "^0.1.11",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.1.0",
+    "react-lazyload": "^3.2.0",
+    "react-password-toggle-icon": "1.1.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-toastify": "^7.0.4",
+    "web-vitals": "^1.1.1",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "storybook": "start-storybook -p 6006 -s public",
+    "build-storybook": "build-storybook -s public",
+    "test:ci": "npm run test -- --coverage --ci --testResultsProcessor=\"jest-junit\"",
+    "test:generate-output": "jest --json --outputFile=.jest-test-results.json",
+    "prebuild:storybook": "npm run test:generate-output",
+    "build:storybook": "build-storybook -c .storybook -o build/",
+    "predeploy": "npm run build:storybook",
+    "deploy": "gh-pages -d build/"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "overrides": [
+      {
+        "files": [
+          "**/*.stories.*"
+        ],
+        "rules": {
+          "import/no-anonymous-default-export": "off"
+        }
+      }
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.12.13",
+    "@babel/preset-react": "^7.13.13",
+    "@storybook/addon-actions": "^6.2.9",
+    "@storybook/addon-essentials": "^6.2.9",
+    "@storybook/addon-jest": "^6.2.9",
+    "@storybook/addon-links": "^6.2.9",
+    "@storybook/node-logger": "^6.2.9",
+    "@storybook/preset-create-react-app": "^3.1.7",
+    "@storybook/react": "^6.2.9"
+  }
+}

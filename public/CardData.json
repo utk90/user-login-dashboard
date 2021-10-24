@@ -1,0 +1,11 @@
+{
+        "data":[
+                { "key": "c1", "cardClass": "grid1", "cardColor": "rgb(67, 104, 86)", "textColor": "white", "cardText": "Your limitation it's only your imagination."},
+                { "key": "c2", "cardClass": "grid2", "cardColor": "rgb(47, 55, 120)", "textColor": "white", "cardText": "Great things never come from comfort zones.."},
+                { "key": "c3", "cardClass": "grid3", "cardColor": "rgb(200, 100, 100)", "textColor": "white", "cardText": "Dream it. Wish it. Do it."},
+                { "key": "c4", "cardClass": "grid4", "cardColor": "rgb(153, 146, 72)", "textColor": "white", "cardText": "Be unstoppable!!"},
+                { "key": "c5", "cardClass": "grid5", "cardColor": "rgb(142, 148, 146)", "textColor": "white", "cardText": "Stay Focused."},
+                { "key": "c6", "cardClass": "grid6", "cardColor": "rgb(112, 57, 91)", "textColor": "white", "cardText": "Never settle"},
+                { "key": "c7", "cardClass": "grid7", "cardColor": "rgb(90, 150, 150)", "textColor": "white", "cardText": "Keep hustling!! Keep growing!!"}
+        ]
+}

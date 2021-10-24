@@ -1,0 +1,24 @@
+/* *{
+    text-align: center;
+} */
+
+.small-btn{
+    border-radius: 20px;
+    height: 30px;
+    width: 80px;
+    font-size: 10px;
+}
+
+.medium-btn{
+    border-radius: 40px;
+    height: 50px;
+    width: 140px;
+    font-size: 16px;
+}
+
+.large-btn{
+    border-radius: 60px;
+    height: 80px;
+    width: 200px;
+    font-size: 24px;
+}

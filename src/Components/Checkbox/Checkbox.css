@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.inputCheckbox{
+    margin-left: 4px;
+    opacity: 70%;
+}
